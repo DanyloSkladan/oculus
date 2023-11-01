@@ -292,7 +292,7 @@ body {
   padding: 16px 15px 12px;
   width: 225px;
   text-align: center;
-  border: 1px solid ;
+  border: 1px solid;
   border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 }
 
@@ -526,51 +526,75 @@ body {
 }
 
 
-.contacts{
+.contacts {
   margin-bottom: 100px;
 }
-.contacts__title{
+
+.contacts__title {
   font-size: 24px;
   line-height: 33px;
   color: #070707;
   margin-bottom: 10px;
 }
-.contacts__inner{
+
+.contacts__inner {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-.contacts__form{
+.contacts__form {
   flex-basis: 600px;
 }
 
-.contacts__text{
+.contacts__text {
   font-size: 13px;
 }
 
-.contacts__email{
+.contacts__email {}
 
-}
-
-.form{
+.form {
   margin-bottom: 10px;
   position: relative;
 
 }
 
-.form__input{
+.form__input {
   width: 100%;
   border: none;
   border-bottom: 1px solid #CACAD6;
+  padding: 22px 70px 20px 0;
 }
 
-.form__btn{
+.form__input::placeholder {
+  font-family: Helvetica;
+  color: #CACAD6;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__btn {
   width: 50px;
   height: 50px;
-  border-bottom: 1px solid #CACAD6;
   text-transform: uppercase;
   font-weight: 700;
   color: #5C5C5E;
+  background-color: #CACAD6;
   border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+
+.footer{
+  margin-bottom: 44px;
+}
+
+.bascet__footer{
+  justify-self: end;
+  display: flex;
+  gap: 20px;
 }
